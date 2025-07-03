@@ -1,0 +1,44 @@
+Warning: NLS unused message: QTEST in: com.kms.katalon.constants.globalMessages
+Warning: NLS missing message: QTEST_NAME in: com.kms.katalon.constants.globalMessages
+2025-07-03 11:37:41.806 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TestSuite-1
+2025-07-03 11:37:41.967 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = enterprisekatalongmailcom
+2025-07-03 11:37:41.969 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = CICD_Tutor
+2025-07-03 11:37:41.971 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = LAPTOP-9J8MPEQS$ - LAPTOP-9J8MPEQS
+2025-07-03 11:37:41.971 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-07-03 11:37:41.973 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 172.20.30.81
+2025-07-03 11:37:41.973 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.3.0
+2025-07-03 11:37:42.612 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-07-03 11:37:42.612 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/CICD_Tutor
+2025-07-03 11:37:43.172 DEBUG testcase.CICD_Tutor                      - 1: openBrowser("")
+2025-07-03 11:37:43.599 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Firefox' driver
+2025-07-03 11:37:43.811 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Jul 03, 2025 11:37:50 AM org.openqa.selenium.firefox.FirefoxDriver <init>
+WARNING: CDP support for Firefox is deprecated and will be removed in future versions. Please switch to WebDriver BiDi.
+2025-07-03 11:37:52.089 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 837690bc-fd5b-4460-8c50-078fd3e98ccf
+2025-07-03 11:37:52.091 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Firefox 140.0.2
+2025-07-03 11:37:52.093 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-07-03 11:37:52.095 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-07-03 11:37:52.117 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-07-03 11:37:52.216 DEBUG testcase.CICD_Tutor                      - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-07-03 11:37:55.054 DEBUG testcase.CICD_Tutor                      - 3: click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"))
+2025-07-03 11:37:55.978 DEBUG testcase.CICD_Tutor                      - 4: setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe")
+2025-07-03 11:37:56.763 DEBUG testcase.CICD_Tutor                      - 5: setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+2025-07-03 11:37:57.084 DEBUG testcase.CICD_Tutor                      - 6: click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login"))
+2025-07-03 11:37:58.046 DEBUG testcase.CICD_Tutor                      - 7: selectOptionByValue(findTestObject("Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true)
+2025-07-03 11:37:59.428 DEBUG testcase.CICD_Tutor                      - 8: click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f"))
+2025-07-03 11:37:59.917 DEBUG testcase.CICD_Tutor                      - 9: click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs"))
+2025-07-03 11:38:00.403 DEBUG testcase.CICD_Tutor                      - 10: delay(3)
+2025-07-03 11:38:03.441 DEBUG testcase.CICD_Tutor                      - 11: click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date"))
+2025-07-03 11:38:03.963 DEBUG testcase.CICD_Tutor                      - 12: click(findTestObject("Page_CURA Healthcare Service/pilih_tanggal"))
+2025-07-03 11:38:04.455 DEBUG testcase.CICD_Tutor                      - 13: setText(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"), "Test CICD")
+2025-07-03 11:38:05.148 DEBUG testcase.CICD_Tutor                      - 14: click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Book Appointment"))
+2025-07-03 11:38:05.894 DEBUG testcase.CICD_Tutor                      - 15: verifyElementPresent(findTestObject("Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation"), 0)
+2025-07-03 11:38:05.922 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '30'
+2025-07-03 11:38:06.369 DEBUG testcase.CICD_Tutor                      - 16: verifyElementVisible(findTestObject("Object Repository/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a"))
+2025-07-03 11:38:06.649 DEBUG testcase.CICD_Tutor                      - 17: closeBrowser(STOP_ON_FAILURE)
+Jul 03, 2025 11:38:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 85
+2025-07-03 11:38:08.519 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/CICD_Tutor
+2025-07-03 11:38:08.588 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-07-03 11:38:08.588 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TestSuite-1
+2025-07-03 11:38:08.588 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
