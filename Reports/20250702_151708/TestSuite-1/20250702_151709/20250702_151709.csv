@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite-1,Firefox 140.0.2,,,02-07-2025 15:17:12,02-07-2025 15:17:36,24.123s,PASSED
+,,,,,,,
+Test Cases/CICD_Tutor,Firefox 140.0.2,,,02-07-2025 15:17:12,02-07-2025 15:17:36,23.639s,PASSED
+"openBrowser("""")",Firefox 140.0.2,,,02-07-2025 15:17:13,02-07-2025 15:17:20,7.792s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 140.0.2,,,02-07-2025 15:17:20,02-07-2025 15:17:23,3.027s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 140.0.2,,,02-07-2025 15:17:23,02-07-2025 15:17:24,0.872s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Firefox 140.0.2,,,02-07-2025 15:17:24,02-07-2025 15:17:25,0.811s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Firefox 140.0.2,,,02-07-2025 15:17:25,02-07-2025 15:17:26,0.350s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Firefox 140.0.2,,,02-07-2025 15:17:26,02-07-2025 15:17:26,0.875s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Firefox 140.0.2,,,02-07-2025 15:17:26,02-07-2025 15:17:28,1.351s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Firefox 140.0.2,,,02-07-2025 15:17:28,02-07-2025 15:17:28,0.493s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs""))",Firefox 140.0.2,,,02-07-2025 15:17:28,02-07-2025 15:17:29,0.472s,PASSED
+delay(3),Firefox 140.0.2,,,02-07-2025 15:17:29,02-07-2025 15:17:32,3.017s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Firefox 140.0.2,,,02-07-2025 15:17:32,02-07-2025 15:17:32,0.508s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/pilih_tanggal""))",Firefox 140.0.2,,,02-07-2025 15:17:32,02-07-2025 15:17:33,0.532s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Test CICD"")",Firefox 140.0.2,,,02-07-2025 15:17:33,02-07-2025 15:17:33,0.535s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Firefox 140.0.2,,,02-07-2025 15:17:33,02-07-2025 15:17:34,0.773s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation""), 0)",Firefox 140.0.2,,,02-07-2025 15:17:34,02-07-2025 15:17:35,0.461s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a""))",Firefox 140.0.2,,,02-07-2025 15:17:35,02-07-2025 15:17:35,0.284s,PASSED
+closeBrowser(STOP_ON_FAILURE),Firefox 140.0.2,,,02-07-2025 15:17:35,02-07-2025 15:17:36,1.156s,PASSED
